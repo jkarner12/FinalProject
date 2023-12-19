@@ -19,15 +19,20 @@ This script is intended to:
 
 Authentication:
 - The script get an access token from the Spotify API using client credentials.
+
 Artist Search:
 - Users can input two artist names (comma-separated) to search for on Spotify.
 - The script checks artist names and provides feedback on invalid characters.
+
 Top 10 Songs Retrieval:
 - For each artist, the script gets and displays their top 10 songs along with popularity ratings.
+
 Data Storage:
 - The script stores the data in a Pandas DataFrame.
+
 CSV File:
 - The script writes the data to a CSV file named top_tracks_data.csv.
+
 Data Analysis:
 - The script reads back data from the CSV file and displays some of the DataFrame where song popularity is greater than a specified threshold (default threshold is 20).
 
