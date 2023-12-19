@@ -1,4 +1,3 @@
-# FinalProject
 Spotify Artist Top 10 Songs Finder and Compare
 
 This script allows the user to search for an artist on Spotify and retrieve and compare their top 10 songs
